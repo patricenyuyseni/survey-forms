@@ -1,0 +1,95 @@
+eader {
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  background-image: url(asset/image/file_000000008510722fae3359ff1953c245.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  display: inline-block;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  padding-right: 5px;
+}
+div {
+  border: 1px solid black;
+  padding: 20px;
+  padding-right: 40px;
+  background-color: rgb(0, 0, 0, 0.5);
+  font-size: 30px;
+}
+
+button {
+  width: 100%;
+  background-color: green;
+  padding: 4px;
+}
+label {
+  margin-bottom: 6px;
+  display: fixed;
+  font-size: 30;
+}
+form {
+  max-width: 500px;
+  width: 100%;
+  font-size: 30;
+}
+form {
+  margin: 15px;
+  font-size: 30;
+}
+#comments {
+  width: 100%;
+  padding-bottom: 1px;
+  font-size: 30;
+}
+#name {
+  width: 100%;
+  padding: 10px;
+  font-size: 30px;
+}
+#email {
+  width: 100%;
+  padding: 10px;
+  font-size: 30px;
+}
+#age {
+  width: 100%;
+  padding: 10px;
+  font-size: 30;
+}
+#current {
+  width: 100%;
+  padding: 10px;
+  font-size: 30px;
+}
+#select {
+  width: 100%;
+  padding: 10px;
+  font-size: 30px;
+}
+input,
+select,
+textarea {
+  width: 10%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+#summit{
+  padding: 10px;
+  font-size: 30px;
+}

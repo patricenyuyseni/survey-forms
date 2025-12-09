@@ -1,1 +1,67 @@
 <!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <mata name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>freecodecam survey form</title>
+        <link rel="stylesheet" href="style.css"
+</head>
+<header>
+ <h1>freecodecam survey form</h1>
+ <p>thank you for taking the time to help us improve the platform</p>
+</header>
+<body>
+    <div>
+            <form action="submit-data" method="POST">
+            <label>Name</label><br>
+            <input type=text placeholder="enter your Name" id="name"/><br>
+        
+            <label>Email</label><br>
+            <input type="email" placeholder="enter your email" id="email"/><br>
+                
+            <label>Age(optional)</label><br>
+            <input type="numeric" placeholder="enter your age" id="age"/><br>
+                
+            <label for="role">which option best describe your current role</label><br>
+            <select id="current" name="current role">
+             <option value="">select current role</option>  
+            </select><br><br>
+                
+            <p>would you recommend freecodecam to a friend</p>
+            <input type="radio" name="recommend"
+            id="Definitely" value="Definitely">
+            <label for="Definitely">Definitely</label><br>
+            <input type="radio" name="recommend"
+            id="maybe" value="maybe">
+            <label for="maybe">maybe</label><br>
+            <input type="radio" name="recommend"
+            id="Not sure" value="Not sure">
+            <label for="Not sure">Not sure</label><br>
+
+            <label for="feature">what is your favorite feature of freecodecam</label><br>
+            <select id="select" name="select feature">
+                <option value="">select an option</option> 
+            </select><br>
+                
+            <p>what would you like to see improved? (check all that apply)</p>
+            <label><input type="checkbox" value="frontend">front-end project</label><br>
+            <label><input type="checkbox" value="backend">back-end project</label><br>
+            <label><input type="checkbox" value="data visualisation">data visualisation</label><br>
+            <label><input type="checkbox" value="challenges">challenges</label><br>
+            <label><input type="checkbox" value="open source community">open source community</label><br>
+            <label><input type="checkbox" value="Gitter help room">Gitter help room</label><br>
+            <label><input type="checkbox" value="videos">videos</label><br>
+            <label><input type="checkbox" value="city meetups">city meetups</label><br>
+            <label><input type="checkbox" value="wiki">wiki</label><br>
+            <label><input type="checkbox" value="Forum">Forum</label><br>
+            <label><input type="checkbox" value="additional courses">additional</label><br><br>
+
+            
+
+            <label for="comment">any comments or suggestions?</label><br>
+            <textarea id="comments" rows="6" placeholder="enter your comment">Enter your comment here</textarea><br>
+        
+            <button type="submit" id="summit">submit</button>
+            </form>
+        </div>
+</body>
