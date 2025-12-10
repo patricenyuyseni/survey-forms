@@ -21,6 +21,7 @@ body {
   text-align: left;
   padding-right: 5px;
 }
+
 div {
   border: 1px solid black;
   padding: 20px;
@@ -34,50 +35,60 @@ button {
   background-color: green;
   padding: 4px;
 }
+
 label {
   margin-bottom: 6px;
   display: fixed;
   font-size: 30;
 }
+
 form {
   max-width: 500px;
   width: 100%;
   font-size: 30;
 }
+
 form {
   margin: 15px;
   font-size: 30;
 }
+
 #comments {
   width: 100%;
   padding-bottom: 1px;
   font-size: 30;
 }
+
 #name {
   width: 100%;
   padding: 10px;
   font-size: 30px;
 }
+
 #email {
   width: 100%;
   padding: 10px;
   font-size: 30px;
 }
+
 #age {
   width: 100%;
   padding: 10px;
   font-size: 30;
 }
+
 #current {
   width: 100%;
   padding: 10px;
   font-size: 30px;
 }
+
 #select {
   width: 100%;
   padding: 10px;
   font-size: 30px;
 }
+
 input,
 select,
 textarea {
@@ -89,7 +100,8 @@ textarea {
   box-sizing: border-box;
   font-size: 30px;
 }
-#summit{
+
+#summit {
   padding: 10px;
   font-size: 30px;
 }
